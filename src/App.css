@@ -1,0 +1,83 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  
+}
+body{
+  background-color: rgb(77, 77, 121);
+  color: whitesmoke; 
+}
+h2{
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Search{
+  margin: auto;
+  display: block;
+  width: 50vh;
+  border-radius: 3px;
+  height: 30px;
+  border: none;
+  margin-top: 10px ;
+  margin-bottom: 10px;
+  color: black; 
+}
+.Search:hover{
+  border: 1px solid green;
+  border-radius: 3px;
+}
+img{
+  height: 24px;
+  width: 24px;
+  margin-left: 10px;
+
+}
+.Container{
+  display: flex;
+  justify-content: center;
+
+}
+.CoinListLight{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  height: 80px;
+  border-bottom: 1px solid #d7d7d7;
+  width: 150vh;
+  background-color: black;
+  border-radius: 3px;
+  padding: 10px;
+}
+.CoinContainerOne{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 35%;
+ 
+}
+.itmeName{
+  display: inline-block;
+  padding-left: 15px;
+}
+.CoinContainerTwo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 10%;
+
+}
+ .red{
+  color: red;
+}
+ .green{
+  color: green;
+}
+
+
+
