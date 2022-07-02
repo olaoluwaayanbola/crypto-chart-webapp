@@ -1,10 +1,13 @@
+import React from 'react'
+import ReactDOM from 'react-dom'
+
 import './App.css';
-import { Main } from './Component/Main.js';
+import MainX from './Component/Main';
 function App() {
   return (
     <div className="App">
       <h2>CURRENCY INFO.</h2>
-      <Main></Main>
+      <MainX/>
     </div>
   );
 }
